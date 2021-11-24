@@ -2,7 +2,7 @@
 window.Config = {
 
   // 站点名
-  SiteName: 'Uptime Status',
+  SiteName: 'CloudSpeed Status',
 
   // 站点链接
   SiteUrl: '/',
@@ -20,7 +20,6 @@ window.Config = {
     'm789837278-154314b04ede808e08294cef',
     'm789837467-aa6506cb8b1f1e242cc07c9b',
     'm789837475-07b0237674147748ad60a2fb',
-    'm789837496-3d90bc5ff27427d0814b5c62',
   ],
 
   // 是否显示监测站点的链接
@@ -29,7 +28,7 @@ window.Config = {
   // 日志天数
   // 虽然免费版说仅保存60天日志，但测试好像API可以获取90天的
   // 不过时间不要设置太长，容易卡，接口请求也容易失败
-  CountDays: 30,
+  CountDays: 60,
 
   // 导航栏菜单
   Navi: [
